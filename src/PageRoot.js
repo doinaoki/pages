@@ -11,9 +11,9 @@ export default function PageRoot(){
     return (
         <BrowserRouter>
             <Routes>
-                <Route path='/' element={<Home />} />
-                <Route path='/programming' element={<Programming />} />
-                <Route path='/study' element={<Study />} />
+                <Route path='/pages/' element={<Home />} />
+                <Route path='/pages/programming' element={<Programming />} />
+                <Route path='/pages/study' element={<Study />} />
             </Routes>
         </BrowserRouter>
     );

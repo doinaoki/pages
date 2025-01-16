@@ -8,15 +8,15 @@ export default function Sidebar() {
       items={[
         {
             title: "Home",
-            itemId: "/",
+            itemId: "/pages",
         },
         {
             title: "programming",
-            itemId: "/programming",
+            itemId: "/pages/programming",
         },
         {
             title: "study",
-            itemId: "/study",
+            itemId: "/pages/study",
         }
       ]}
       activeItemId={window.location.pathname}
