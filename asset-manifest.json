@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "./static/css/main.c2684ddd.css",
-    "main.js": "./static/js/main.c0fe8730.js",
+    "main.js": "./static/js/main.e5ce3e4b.js",
     "static/js/453.1c131604.chunk.js": "./static/js/453.1c131604.chunk.js",
     "static/media/TypingGame.mp4": "./static/media/TypingGame.be892eb572668f8cb036.mp4",
     "static/media/Tokyo.mp4": "./static/media/Tokyo.b25d86841a22fa75a60b.mp4",
@@ -13,11 +13,11 @@
     "static/media/share_calendar.png": "./static/media/share_calendar.dd2fff5b673ed1c51cad.png",
     "index.html": "./index.html",
     "main.c2684ddd.css.map": "./static/css/main.c2684ddd.css.map",
-    "main.c0fe8730.js.map": "./static/js/main.c0fe8730.js.map",
+    "main.e5ce3e4b.js.map": "./static/js/main.e5ce3e4b.js.map",
     "453.1c131604.chunk.js.map": "./static/js/453.1c131604.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c2684ddd.css",
-    "static/js/main.c0fe8730.js"
+    "static/js/main.e5ce3e4b.js"
   ]
 }
