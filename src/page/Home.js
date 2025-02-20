@@ -1,9 +1,9 @@
 import React from 'react';
 import {HeadingXLarge, HeadingSmall, HeadingXSmall, LabelLarge, LabelMedium} from 'baseui/typography';
 import {Avatar} from "baseui/avatar";
-import BasketBall from '../components/basketball.png';
-import ICSME from '../components/ICSME.png';
-import software from '../components/software.png';
+import BasketBall from '../assets/basketball.png';
+import ICSME from '../assets/ICSME.png';
+import software from '../assets/software.png';
 import { IoLogoGithub } from "react-icons/io";
 import { StyledLink } from "baseui/link";
 import { ListItem, ListItemLabel } from "baseui/list";

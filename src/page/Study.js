@@ -1,16 +1,16 @@
 import React from 'react';
 import {HeadingXLarge, HeadingLarge, LabelLarge, HeadingSmall, LabelMedium, HeadingXSmall} from 'baseui/typography';
-import presentation from '../components/presentation.png';
+import presentation from '../assets/presentation.png';
 
 import {Avatar} from "baseui/avatar";
-import BasketBall from '../components/basketball.png';
-import ICSME from '../components/ICSME.png';
-import slide1 from '../components/slide1.png';
-import slide2 from '../components/slide2.png';
-import slide3 from '../components/slide3.png';
-import slide4 from '../components/slide4.png';
-import slide5 from '../components/slide5.png';
-import slide6 from '../components/slide6.png';
+import BasketBall from '../assets/basketball.png';
+import ICSME from '../assets/ICSME.png';
+import slide1 from '../assets/slide1.png';
+import slide2 from '../assets/slide2.png';
+import slide3 from '../assets/slide3.png';
+import slide4 from '../assets/slide4.png';
+import slide5 from '../assets/slide5.png';
+import slide6 from '../assets/slide6.png';
 import { IoLogoGithub } from "react-icons/io";
 import { StyledLink } from "baseui/link";
 import { ListItem, ListItemLabel } from "baseui/list";
@@ -19,7 +19,7 @@ import { Check, ArrowRight } from "baseui/icon";
 import {StarRating} from "baseui/rating";
 import { StyledTable, StyledHeadCell, StyledBodyCell } from "baseui/table-grid";
 import {Pagination} from "baseui/pagination";
-import software from '../components/software.png';
+import software from '../assets/software.png';
 
 export default function Study(){
     const settings = {
