@@ -5,12 +5,8 @@ import { Navigation } from "baseui/side-navigation";
 const path = "/pages/#"
 
 export default function Sidebar() {
-  const storedId = localStorage.getItem("sidebar-active-item") || path;
+  const storedId = window.location.href.replace(window.location.origin, "");
   const [id, setId] = React.useState(storedId);
-  console.log(id);
-  React.useEffect(() => {
-    localStorage.setItem("sidebar-active-item", id);
-  }, [id]);
   return (
       <Navigation
         items={[
@@ -30,7 +26,6 @@ export default function Sidebar() {
         activeItemId={id}
         onChange={({ item }) =>
         {
-          console.log(item)
           setId(item.itemId)
         }
         }
