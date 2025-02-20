@@ -1,8 +1,7 @@
 {
-  "name": "pages",
-  "homepage": "https://doinaoki.github.io/pages",
+  "name": "mypage",
+  "homepage": ".",
   "version": "0.1.0",
-  "private": true,
   "dependencies": {
     "@emotion/react": "^11.14.0",
     "@emotion/styled": "^11.14.0",
@@ -20,6 +19,7 @@
     "react-router": "^7.1.1",
     "react-router-dom": "^7.1.1",
     "react-scripts": "5.0.1",
+    "react-slick": "^0.30.3",
     "styletron-engine-monolithic": "^1.0.0",
     "styletron-react": "^6.1.1",
     "web-vitals": "^2.1.0"

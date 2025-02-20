@@ -59,7 +59,7 @@ export default function Home(){
                     />
                 <InfoArea title="Programming" body={
                     <div className="leading-8 pl-7">
-                        <StyledLink href="/programming"><LabelMedium><ArrowRight size={20}/>詳細はprogrammingへ</LabelMedium></StyledLink>
+                        <StyledLink href="#/programming"><LabelMedium><ArrowRight size={20}/>詳細はprogrammingへ</LabelMedium></StyledLink>
                         <HeadingXSmall className="pb-3 pt-3">得意な言語順</HeadingXSmall>
                         <Language/>
                     </div>
@@ -67,7 +67,7 @@ export default function Home(){
                 />
                 <InfoArea title="Study" body={
                     <div className="pl-7">
-                        <StyledLink href="/study"><LabelMedium><ArrowRight size={20}/>詳細はstudyへ</LabelMedium></StyledLink>
+                        <StyledLink href="#/study"><LabelMedium><ArrowRight size={20}/>詳細はstudyへ</LabelMedium></StyledLink>
                         <HeadingXSmall className="pb-2 pt-3">研究概要</HeadingXSmall> 
                         <LabelLarge className="pl-6">Javaソースコード内にある識別子の名前変更に関する研究</LabelLarge>
                         <HeadingXSmall className="pt-3">発表実績</HeadingXSmall>
@@ -99,18 +99,15 @@ export default function Home(){
 const languageRank = [
     {
         name: "Java",
-        rank: 3
-    },
-    {
-        name: "C",
-        rank: 3
-    },
-    {
-        name: "JavaScript",
-        rank: 3
+        rank: 5
     },
     {
         name: "Python",
+        rank: 4
+    },
+
+    {
+        name: "JavaScript",
         rank: 3
     },
     {
@@ -118,12 +115,16 @@ const languageRank = [
         rank: 3
     },
     {
-        name: "C++",
+        name: "Go",
         rank: 3
     },
     {
-        name: "Go",
-        rank: 3
+        name: "C",
+        rank: 2.5
+    },
+    {
+        name: "C++",
+        rank: 2
     },
     {
         name: "C#",

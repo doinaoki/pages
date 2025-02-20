@@ -1,7 +1,7 @@
 
 import React from 'react';
 import { BrowserRouter, Route, Routes, Link } from 'react-router-dom';
-
+import { HashRouter } from 'react-router-dom';
 import Home from './page/Home';
 import Programming from './page/Programming';
 import Study from './page/Study';
@@ -9,12 +9,12 @@ import Study from './page/Study';
 
 export default function PageRoot(){
     return (
-        <BrowserRouter>
+        <HashRouter>
             <Routes>
-                <Route path='/pages/' element={<Home />} />
-                <Route path='/pages/programming' element={<Programming />} />
-                <Route path='/pages/study' element={<Study />} />
+                <Route exact path='/' element={<Home />} />
+                <Route exact path='/programming' element={<Programming />} />
+                <Route exact path='/study' element={<Study />} />
             </Routes>
-        </BrowserRouter>
+        </HashRouter>
     );
 }
